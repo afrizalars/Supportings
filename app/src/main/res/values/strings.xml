@@ -1,0 +1,54 @@
+<resources>
+    <string name="app_name">1WAE</string>
+    <string name="text_landing">Hai, Saya 1WAE.\nAda yang bisa\nsaya bantu ?</string>
+    <string name="text_signup">Please choose if you\nwould like to sign up\nusing facebook or your\nemail address.</string>
+    <string name="text_signin">Welcome back.\nPlease sign in.</string>
+    <string name="text_login_email">Please enter your email\naddress.</string>
+    <string name="text_signup_manual">Complete the\ndata below.</string>
+    <string name="text_main_question">Keluhan utama apa yang ibu/bapak/sdr alami ?</string>
+    <string name="btn_cond_3">> 2 tahun (atau > 1 Tahun untuk anak dan remaja.</string>
+    <string name="btn_cond_2"> lebih dari 1 Minggu </string>
+    <string name="btn_cond_1"> kurang dari 1 Minggu </string>
+    <string name="obat_depresi"> •	Selective serotonin reuptake inhibitors (SSRIs)\n\n
+        •	Serotonin/norepinephrine reuptake inhibitors         (SNRIs)\n\n
+        •	Tricyclic antidepressants (TCAs)\n\n
+        •	Monoamine oxidase inhibitors (MAOIs)) </string>
+    <string name="duloxetine">
+        Nama Obat : Duloxetine\n\n
+        Golongan : SNRI (Serotonin Norepinephrine Reuptake  Inhibitor)\n\n
+        Kegunaan dan Indikasi : mengatasi gangguan depresi mayor, gangguan cemas,
+                                gangguan obsesi kompulsif, gangguan hiperaktivitas
+                                dan defisit perhatian.\n\n
+        Kontraindikasi :\n
+        -	Kerusakan Hati\n
+        -	Kerusakan Ginjal\n
+        -	Hipertensi yang tidak terkontrol\n
+        -	Glaukoma sudut tertutup\n
+        -	Penggunaan bersamaan dengan Linezoid atau IV Methylene    Blue\n
+        -	Penggunaan bersamaan atau dalam 2 minggu penarikan    MAOI\n\n
+        Efek Samping :\n
+        Perubahan perilaku, keinginan bunuh diri, HTN, sakit kepala,
+        somnolen, kelelahan, pusing, insomnia, agitasi, tremor,
+        kecemasan, insomnia, lesu, mimpi abnormal, mual, xerostomia,
+        palpitasi, hiperhidrosis, penurunan libido, disfungsi seksual,
+        muntah , sembelit, diare, dispepsia, nyeri perut, berat badan,
+        nafsu makan menurun, disfungsi ereksi, peningkatan enzim hati,
+        kejang otot, parestesia, tinnitus, penglihatan kabur, midriasis,
+        nasofaringitis, hiponatremia, dapat mengganggu agregasi trombosit.
+        Sindrom Stevens-Johnson dan eritema multiforme.\n\n
+        Cara Konsumsi :\n
+        Dapat diminum sebelum atau sesudah makan. Ditelan seluruhnya,
+        jangan dikunyah.\n\n
+    </string>
+
+
+    <string name="gender_prompt">Gender</string>
+    <string name="rumah_sakit">Rumah Sakit</string>
+    <string-array name="genders_arrays">
+        <item>Gender</item>
+        <item>Laki-laki</item>
+        <item>Perempuan</item>
+    </string-array>
+
+
+</resources>

@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Obat"
+    android:background="#fff"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:gravity="center"
+        android:background="@color/colorPrimary">
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/logo_white"/>
+    </LinearLayout>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+        <android.support.v7.widget.CardView
+            android:id="@+id/cardview1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:clickable="true"
+            app:cardElevation="5dp"
+            app:cardCornerRadius="10dp"
+            >
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="150dp"
+                    android:layout_height="120dp"
+                    android:src="@drawable/duloxetine" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Duloxetine"
+                    android:layout_gravity="center"/>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+                    <Button
+                        android:layout_width="50dp"
+                        android:layout_height="wrap_content"
+                        android:background="#e2e2e2"
+                        android:paddingStart="14dp"
+                        android:drawableLeft="@drawable/ic_local_grocery_store_black_24dp"
+                        android:textSize="20sp"/>
+                    <LinearLayout
+                        android:layout_width="50dp"
+                        android:layout_height="48dp"
+                        android:gravity="center"
+                        android:background="#f7f7f7">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:gravity="center"
+                            android:text="n/a"/>
+
+
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="50dp"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+                        <Button
+                            android:layout_width="50dp"
+                            android:layout_height="23dp"
+                            android:background="#e2e2e2"
+                            android:text="+"
+                            android:textSize="10sp"/>
+                        <Button
+                            android:layout_width="50dp"
+                            android:layout_height="wrap_content"
+                            android:background="#e2e2e2"
+                            android:layout_marginTop="0.1dp"
+                            android:text="-"
+                            android:textSize="13sp"/>
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+        <android.support.v7.widget.CardView
+            android:id="@+id/cardview2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:clickable="true"
+            app:cardElevation="5dp"
+            app:cardCornerRadius="10dp"
+            android:layout_marginStart="10dp"
+            >
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="150dp"
+                    android:layout_height="120dp"
+                    android:src="@drawable/duloxetine" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Duloxetine"
+                    android:layout_gravity="center"/>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+                    <Button
+                        android:layout_width="50dp"
+                        android:layout_height="wrap_content"
+                        android:background="#e2e2e2"
+                        android:paddingStart="14dp"
+                        android:drawableLeft="@drawable/ic_local_grocery_store_black_24dp"
+                        android:textSize="20sp"/>
+                    <LinearLayout
+                        android:layout_width="50dp"
+                        android:layout_height="48dp"
+                        android:gravity="center"
+                        android:background="#f7f7f7">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:gravity="center"
+                            android:text="n/a"/>
+
+
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="50dp"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+                        <Button
+                            android:layout_width="50dp"
+                            android:layout_height="23dp"
+                            android:background="#e2e2e2"
+                            android:text="+"
+                            android:textSize="10sp"/>
+                        <Button
+                            android:layout_width="50dp"
+                            android:layout_height="wrap_content"
+                            android:background="#e2e2e2"
+                            android:layout_marginTop="0.1dp"
+                            android:text="-"
+                            android:textSize="13sp"/>
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+
+    </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.zzulf.supporting.KeluhanUtama"
+    android:background="#fff">
+
+
+    <RelativeLayout
+        android:id="@+id/lyt_content"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="50dp">
+
+        <LinearLayout
+            android:id="@+id/linear1"
+            android:layout_width="match_parent"
+            android:layout_height="220dp"
+            android:paddingLeft="30dp"
+            android:paddingEnd="30dp"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_marginBottom="10dp"
+                android:src="@drawable/logo"
+                android:layout_above="@id/text_pertanyaan"/>
+
+            <TextView
+                android:id="@+id/text_pertanyaan"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="serif"
+                android:text="Keluhan utama apakah yang anda rasakan ?"
+                android:layout_marginTop="10dp"
+                android:textColor="#000"
+                android:textSize="13pt" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linear2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="230dp"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/btn_opt1"
+                android:layout_width="250dp"
+                android:layout_height="45dp"
+                android:padding="10dp"
+                android:textColor="@color/colorPrimaryDark"
+                android:textAllCaps="false"
+                android:text="Perubahan Mood"
+                android:foreground="?attr/selectableItemBackground"
+                android:background="@drawable/btn_rounded_transparent_cyan"/>
+
+            <Button
+                android:id="@+id/btn_opt2"
+                android:layout_width="250dp"
+                android:layout_height="45dp"
+                android:padding="10dp"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/colorPrimaryDark"
+                android:textAllCaps="false"
+                android:text="Cemas"
+                android:foreground="?attr/selectableItemBackground"
+                android:background="@drawable/btn_rounded_transparent_cyan"/>
+
+            <Button
+                android:id="@+id/btn_opt3"
+                android:layout_width="250dp"
+                android:layout_height="45dp"
+                android:padding="10dp"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/colorPrimaryDark"
+                android:textAllCaps="false"
+                android:text="Perubahan /  Masalah Kepribadian"
+                android:foreground="?attr/selectableItemBackground"
+                android:background="@drawable/btn_rounded_transparent_cyan"/>
+
+            <Button
+                android:id="@+id/btn_opt4"
+                android:layout_width="250dp"
+                android:layout_height="45dp"
+                android:padding="10dp"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/colorPrimaryDark"
+                android:textAllCaps="false"
+                android:text="Isi Pikiran yang tidak masuk akal"
+                android:foreground="?attr/selectableItemBackground"
+                android:background="@drawable/btn_rounded_transparent_cyan"/>
+
+
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</RelativeLayout>

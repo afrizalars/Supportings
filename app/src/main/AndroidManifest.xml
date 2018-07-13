@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.zzulf.supporting">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity" />
+        <activity android:name=".signup" />
+        <activity android:name=".activity_signin" />
+        <activity android:name=".layout_quiz" />
+        <activity android:name=".signup_manual" />
+        <activity android:name=".MainQuestion" />
+        <activity android:name=".pil_perubahan_mood" />
+        <activity android:name=".syaratHalamanEmpat" />
+        <activity android:name=".HalamanEmpat" />
+        <activity android:name=".Output" />
+        <activity android:name=".HalamanEmpatTidakTerpenuhi" />
+        <activity android:name=".syaratHalamanEmpat2" />
+        <activity android:name=".HalamanEmpat2" />
+        <activity android:name=".TanyaEmpat" />
+        <activity android:name=".pil_cemas" />
+        <activity android:name=".HalamanLima" />
+        <activity android:name=".HalamanTujuh" />
+        <activity android:name=".HalamanLimaCabang" />
+        <activity android:name=".HalamanLimaCabangCabang" />
+        <activity android:name=".HalamanLimaFinal" />
+        <activity android:name=".KeluhanUtama" />
+        <activity android:name=".HalamanEmpatHal3TidakTerpenuhi" />
+        <activity android:name=".HalamanLimaCabang2" />
+        <activity android:name=".UserMainScreen_Community" />
+        <activity android:name=".SplashScreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Home" />
+        <activity android:name=".HalEmpatTidakTerpenuhi" />
+        <activity android:name=".Obat"></activity>
+        <activity android:name=".MeetExperts">
+
+        </activity>
+    </application>
+
+</manifest>
